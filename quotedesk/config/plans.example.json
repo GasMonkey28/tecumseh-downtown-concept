@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "status": "draft_not_live",
+  "production_checkout_enabled": false,
+  "annual_checkout_enabled": false,
+  "paid_plan_change_effective": "current_period_end",
+  "free_to_paid_effective": "after_verified_payment",
+  "currency": "USD",
+  "quota_scope": "workspace",
+  "active_quote_states": ["draft", "ready", "user_confirmed_sent", "negotiating"],
+  "archived_quotes_count_as_active": false,
+  "pricing_review_date": "2026-09-17",
+  "credit_unit": "one_successful_ai_followup_draft",
+  "reset_timezone": "UTC",
+  "free_reset": "calendar_month",
+  "paid_reset": "subscription_monthly_anniversary_even_if_annual",
+  "share_limits": {"expiry_days": 30, "history_per_quote": 100},
+  "manual_followup_credits": 0,
+  "reminder_credits": 0,
+  "photo_upload_credits": 0,
+  "plans": [
+    {
+      "id": "free",
+      "monthly_cents": 0,
+      "annual_cents": 0,
+      "seats": 1,
+      "monthly_credits": 10,
+      "active_quotes": 10,
+      "storage_mb": 100,
+      "branded_pages": false
+    },
+    {
+      "id": "solo",
+      "monthly_cents": 1900,
+      "annual_cents": 19000,
+      "seats": 1,
+      "monthly_credits": 200,
+      "active_quotes": 100,
+      "storage_mb": 2000,
+      "branded_pages": true
+    },
+    {
+      "id": "team",
+      "feature_ready": false,
+      "checkout_enabled": false,
+      "monthly_cents": 6900,
+      "annual_cents": 69000,
+      "seats": 3,
+      "monthly_credits": 1000,
+      "active_quotes": 500,
+      "storage_mb": 10000,
+      "branded_pages": true
+    }
+  ],
+  "topups": [
+    {
+      "id": "boost_10",
+      "price_cents": 100,
+      "credits": 10,
+      "recurring": false,
+      "repeatable": true,
+      "credits_expire": false,
+      "storage_increase_mb": 0
+    }
+  ],
+  "consumption_order": [
+    "monthly",
+    "purchased"
+  ],
+  "limits": {
+    "maximum_input_characters_per_draft": 12000,
+    "maximum_output_tokens_per_draft": 600,
+    "maximum_uploaded_image_mb": 15,
+    "maximum_images_per_upload": 10,
+    "maximum_quote_pdf_mb": 10
+  },
+  "channels": {
+    "web_checkout": "stripe_test_until_authorized",
+    "ios_checkout": "storefront_policy_review_required",
+    "android_checkout": "storefront_policy_review_required"
+  },
+  "notes": [
+    "Not production provider product IDs.",
+    "Storage counts originals and derivatives.",
+    "Archived quote history, export and deletion remain accessible.",
+    "No SMS or email sending costs included.",
+    "Annual credits issued monthly; no 12x grant at checkout."
+  ]
+}

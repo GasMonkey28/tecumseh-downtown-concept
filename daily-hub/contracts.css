@@ -1,0 +1,6 @@
+/* Locale labels and contract forms must wrap on smaller desktop windows. */
+nav button span{min-width:0;line-height:1.45}.section-head{gap:12px;flex-wrap:wrap}.tabs{flex-wrap:wrap}.contract p{font-size:12px}.contract h2{font-size:20px;margin:16px 0}.contract .row{margin-top:18px}.contract .row button{font-size:11px;padding:7px 10px}.price-alert{color:#916725;background:#fff8e9;padding:10px;border-radius:7px}.contract-form{display:grid;grid-template-columns:1fr 1fr;gap:0 18px}#contractEdit{max-width:820px;max-height:90vh;overflow:auto}#contractError{color:#a2573e;margin:12px 0}blockquote{overflow-wrap:anywhere;white-space:pre-wrap}.event-body.personal{border-color:#b89ebf}header{gap:16px}.header-actions{flex-shrink:0}@media(max-width:650px){.contract-form{grid-template-columns:1fr}.next .clock{position:static;display:inline-block;margin-top:10px}.next h2{max-width:100%}header{flex-wrap:wrap}.header-actions{flex-direction:row}nav button span{white-space:normal;min-width:80px}}
+
+.save-status{font-size:12px;color:var(--green);line-height:1.6;min-height:1.6em}.save-status:empty{display:none}
+
+.service .bill-amount{font-size:30px;margin:10px 0}.bill-history{padding:12px 0;border-bottom:1px solid #e0e6df}.service details{margin-top:14px}.service hr{border:0;border-top:1px solid #e0e6df;margin:18px 0}.service label.inline{font-size:12px;line-height:1.6}
