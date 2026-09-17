@@ -2,22 +2,23 @@
 
 Checked September 17, 2026. This is a bounded prototype review, not a WCAG conformance audit or production certification.
 
-## Passed locally and on GitHub Pages
+## Version 2 local verification
 
-The browser interaction suite also passed against the [published demonstration](https://gasmonkey28.github.io/tecumseh-downtown-concept/) on September 17, 2026. Node tests were run locally.
+The revised local interface passed the following checks on September 17, 2026. Version 1 was previously verified on GitHub Pages; the expanded version 2 suite is rerun there after deployment. Node tests run locally.
 
 - Four Node tests: combined event filters, business search/category intersection, leap-year/calendar alignment, and month/year boundaries.
-- Browser interaction tests in Microsoft Edge (Chromium) at 1440, 390 and 320 CSS pixels wide.
+- Browser interaction tests in Microsoft Edge (Chromium) at 1440, 1024, 768, 390 and 320 CSS pixels wide.
 - Event search and category selection, empty results, list/calendar switching, month navigation, and event detail previews.
 - Business search and category intersection, empty results, and business detail previews.
-- Art Trail and Farmers Market concept previews.
+- Three selectable fictional Art Trail stops, expandable market FAQs, and three sample itinerary modes with working business detail links.
+- Date-range filtering, invalid-range handling, filter reset, featured-event controls and direct event URLs.
 - Native dialog Escape dismissal and focus restoration to the opening control.
 - First keyboard stop reaches the skip link; accessible names on search fields; visible keyboard focus.
 - Mobile menu opens and closes after navigation.
-- No document-level horizontal overflow at the three tested widths, including mobile calendar view.
+- No document-level horizontal overflow at the five tested widths, including mobile calendar view.
 - Reduced-motion preference disables smooth scrolling.
 - No JavaScript runtime exceptions during the interaction suite.
-- Desktop full-page and mobile screenshots visually reviewed. A mobile search-layout overflow found in the first pass was fixed and the interaction suite rerun successfully.
+- Desktop full-page and mobile screenshots visually reviewed. A narrow mobile date-input layout found during visual review was fixed and the interaction suite rerun successfully.
 
 ## Not verified or implemented
 
