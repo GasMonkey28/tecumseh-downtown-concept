@@ -2,7 +2,9 @@
 
 Checked September 17, 2026. This is a bounded prototype review, not a WCAG conformance audit or production certification.
 
-## Passed locally
+## Passed locally and on GitHub Pages
+
+The browser interaction suite also passed against the [published demonstration](https://gasmonkey28.github.io/tecumseh-downtown-concept/) on September 17, 2026. Node tests were run locally.
 
 - Four Node tests: combined event filters, business search/category intersection, leap-year/calendar alignment, and month/year boundaries.
 - Browser interaction tests in Microsoft Edge (Chromium) at 1440, 390 and 320 CSS pixels wide.

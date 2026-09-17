@@ -4,6 +4,10 @@ An independent, unsolicited website concept by Vince Ma. **Not an official City 
 
 ## Try the experience
 
+[Open the live demonstration](https://gasmonkey28.github.io/tecumseh-downtown-concept/)
+
+![Desktop preview of the independent concept](assets/preview.png)
+
 The interface starts in **May 2027**, a fixed demonstration month. All six event records and four business profiles are fictional. No actual event dates, merchants, opening hours, addresses, tickets or availability are asserted.
 
 1. Browse the May events, filter Arts & culture, and open an event detail.
